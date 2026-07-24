@@ -21,7 +21,7 @@ how does it compare to national averages?*
 - **Logs business/store donations** separately from individual donors
 - **Generates text reports** — full meal log, cost log, monthly trends, donor totals
 - **Generates charts**:
-  - Meals distributed per month, combined with a running (cumulative) cost-per-meal line and a national average benchmark for comparison
+  - Meals distributed per month, combined with a running (cumulative) cost-per-meal line
   - Total meal cost by month
   - Cost per meal by month (for months with recorded costs)
 
@@ -66,12 +66,6 @@ how does it compare to national averages?*
    ```
    This prints the meal log, cost log, monthly trends, and donor summary to the console, and saves three PNG chart files.
 
-## A note on the national average comparison
-
-The reference line on the meal trends chart ($3.58/meal) comes from Feeding
-America's *Map the Meal Gap* report, which tracks self-reported individual
-grocery costs — not identical to bulk charity purchasing, but the closest
-public benchmark available for comparison.
 
 ## About Hearts & Hunger
 
