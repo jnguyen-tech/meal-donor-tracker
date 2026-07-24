@@ -11,8 +11,7 @@ and generates automated reports and charts from the data.
 Since June 2025, Hearts & Hunger has distributed over 1,800 meals and raised
 more than $1,200 through individual donors — all of which I was tracking by
 hand. I built this tool to store that data properly, analyze trends over
-time, and answer real questions like: *is our cost per meal improving, and
-how does it compare to national averages?*
+time, and answer real questions like: is our cost per meal improving over time?*
 
 ## What it does
 
@@ -27,7 +26,7 @@ how does it compare to national averages?*
 
 ## Sample output
 
-**Meals distributed by month, with cumulative cost per meal vs. the national average**
+**Meals distributed by month, with cumulative cost per meal**
 ![Meal trends chart](meal_trends.png)
 
 **Meal costs by month**
