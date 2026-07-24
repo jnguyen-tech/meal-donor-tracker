@@ -11,7 +11,7 @@ and generates automated reports and charts from the data.
 Since June 2025, Hearts & Hunger has distributed over 1,800 meals and raised
 more than $1,200 through individual donors — all of which I was tracking by
 hand. I built this tool to store that data properly, analyze trends over
-time, and answer real questions like: is our cost per meal improving over time?*
+time, and answer real questions like: is our cost per meal improving over time?
 
 ## What it does
 
