@@ -52,3 +52,35 @@ time?
 ## How to run it
 
 1. Install dependencies:
+pip install pandas matplotlib
+
+
+2. Add your own data by editing a seed script (see `sample_seed_data.py` for the format), then run it once to populate the database:
+
+python sample_seed_data.py
+
+
+3. View reports and generate charts:
+
+python meal_tracker.py
+
+   This prints the meal log, cost log, monthly trends, donor summary, and expense log to the console, and saves three PNG chart files.
+
+## Notes
+
+While researching how to speed up expense logging, I experimented with OCR
+(optical character recognition) to automatically extract totals from receipt
+images using Tesseract and Python. It worked, but reliability varied enough
+across receipt formats that manual entry with human verification remained
+more accurate for this project's scale — a good lesson in when automation is
+(and isn't) worth it. I'm carrying that OCR groundwork forward into a
+separate invoice-tracking project, where more consistently formatted
+documents should make it more effective.
+
+## About Hearts & Hunger
+
+Hearts & Hunger was founded in June 2025 and was integrated into the
+ministries of the Cathedral of Our Lady of Perpetual Help in March 2026. The
+organization coordinates volunteers, sponsors, and local businesses to
+prepare and distribute meals to individuals experiencing food insecurity
+throughout the Oklahoma City metro area.
